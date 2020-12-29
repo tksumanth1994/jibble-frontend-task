@@ -20,18 +20,18 @@
       </li>
       <li>
         <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa"
+          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescript"
           target="_blank"
           rel="noopener"
-          >pwa</a
+          >typescript</a
         >
       </li>
       <li>
         <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router"
+          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa"
           target="_blank"
           rel="noopener"
-          >router</a
+          >pwa</a
         >
       </li>
       <li>
@@ -48,14 +48,6 @@
           target="_blank"
           rel="noopener"
           >unit-jest</a
-        >
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescript"
-          target="_blank"
-          rel="noopener"
-          >typescript</a
         >
       </li>
     </ul>
@@ -119,14 +111,12 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { Component, Prop, Vue } from "vue-property-decorator";
 
-export default defineComponent({
-  name: "HelloWorld",
-  props: {
-    msg: String
-  }
-});
+@Component
+export default class HelloWorld extends Vue {
+  @Prop() private msg!: string;
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

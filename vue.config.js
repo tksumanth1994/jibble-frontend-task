@@ -1,13 +1,14 @@
 const TerserPlugin = require("terser-webpack-plugin");
 
-const config = {};
-
-if (process.env.NODE_ENV === "production") {
-  config.pluginOptions = {
+const config = {
+  pluginOptions: {
     webpackBundleAnalyzer: {
       openAnalyzer: false
     }
-  };
+  }
+};
+
+if (process.env.NODE_ENV === "production") {
   config.configureWebpack = config => {
     config.optimization = {
       minimize: true,

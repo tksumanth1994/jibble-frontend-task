@@ -1,0 +1,47 @@
+$shadow : #507abd;
+$bgColor: #5d84c3;
+$ribbonColor:	#fff;
+
+/* The ribbon */
+
+.ribbon{
+	width:30px;
+	height:30px;
+	background-color:$ribbonColor;
+	position:absolute;
+	right:10px;
+	top: 0;
+	&:before{
+		content: '';
+		position: absolute;
+		z-index: 2;
+		left: 0;
+		bottom: -15px;
+		border-left: 15px solid $ribbonColor;
+		border-right: 15px solid $ribbonColor;
+		border-bottom: 15px solid transparent;
+	}
+	&:after{
+		content:'';
+		width:60px;
+		height:54px;
+		position: absolute;
+		z-index: -1;
+		left: 0;
+		bottom:-36px;
+		background-color:$shadow;
+		transform:skewY(35deg) skewX(0);
+    }
+    &.favorite {
+        background-color: #f5c518;
+        &:before {
+            border-left-color: #f5c518;
+            border-right-color: #f5c518;
+        }
+    }
+}
+
+@keyframes drop{
+	0%		{ top:-35px; }
+	100%	{ top:0; }
+}

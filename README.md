@@ -1,4 +1,4 @@
-# jibble-frontend-task
+# movies-search
 
 ## Project setup
 ```
