@@ -5,10 +5,10 @@
 //   page?: number | undefined;
 // }
 
-const getMovies = ($axios, options) =>
+const getMovies = ($axios: any, options: any) =>
   $axios.get("https://jsonmock.hackerrank.com/api/movies/search/", {
     params: options,
-    validateStatus(status) {
+    validateStatus(status: number) {
       return status >= 200 && status < 300;
     }
   });

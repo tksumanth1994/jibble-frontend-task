@@ -16,6 +16,7 @@ module.exports = {
       transparent: "transparent",
       current: "currentColor",
       primary: "#f5c518",
+      "primary-light": "#f8d863",
       secondary: "#111111",
       black: colors.black,
       white: colors.white,
@@ -72,7 +73,8 @@ module.exports = {
       spin: "spin 1s linear infinite",
       ping: "ping 1s cubic-bezier(0, 0, 0.2, 1) infinite",
       pulse: "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
-      bounce: "bounce 1s infinite"
+      bounce: "bounce 1s infinite",
+      "spin-slow": "spin 2s linear infinite"
     },
     backgroundColor: theme => theme("colors"),
     backgroundImage: {

@@ -1,6 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
 import "./registerServiceWorker";
+import "./plugins/vue-composition";
 import "./plugins/axios";
 import "./assets/tailwind.css";
 

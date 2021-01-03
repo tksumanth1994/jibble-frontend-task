@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+<div
+  class="min-h-screen w-full max-h-full"
+>
+  <div
+    class="px-8 md:px-16 lg:px-56 pt-10 md:pt-20 md:pb-32 md:bg-gradient-to-b from-primary to-yellow-100"
+  >
+    <div
+      class="flex justify-center"
+    >
+      <div
+        class="flex bg-gradient-to-r from-blueGray-700 to-blueGray-600 rounded-full overflow-hidden shadow-lg transform transition-all max-w-lg w-full"
+      >
+        <span
+          class="inline-flex items-center pl-6 bg-transparent text-gray-300"
+        >
+          <svg
+            class="w-6 text-blueGray-400"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+        </span>
+         
+        <input
+          class="appearance-none w-full bg-transparent px-6 py-4 text-cyan-100 text-lg placeholder-blueGray-400 focus:outline-none"
+          placeholder="Search movies..."
+          type="text"
+        />
+      </div>
+    </div>
+     
+    <div
+      class="flex justify-between mt-4 md:mt-12 md:px-4"
+    >
+      <div
+        class="flex justify-start items-center"
+      >
+        <button
+          class="inline-flex items-center rounded-r-none px-4 md:px-8 py-2 border-r border-blueGray-400 rounded shadow-lg text-xs md:text-sm focus:outline-none bg-cyan-100 text-cyan-600 cursor-default"
+          type="button"
+        >
+          <svg
+            class="w-4 md:w-6 pr-1 md:pr-2"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+          
+          All
+        
+        </button>
+         
+        <button
+          class="button-favorite inline-flex items-center rounded-l-none px-4 py-2 rounded shadow-lg text-xs md:text-sm focus:outline-none text-blueGray-400 bg-blueGray-700 hover:text-cyan-600 hover:bg-cyan-100"
+          type="button"
+        >
+          <svg
+            class="w-4 md:w-6 pr-1 md:pr-2"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+          
+          Favorites
+        
+        </button>
+      </div>
+       
+      <div
+        class="flex justify-end items-center"
+      >
+        <div
+          class="pr-2 md:pr-3 cursor-not-allowed pointer-events-none text-blueGray-400"
+        >
+          <svg
+            class="w-3 md:w-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11 19l-7-7 7-7m8 14l-7-7 7-7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+        </div>
+         
+        <div
+          class="pr-2 md:pr-3 cursor-not-allowed pointer-events-none text-blueGray-400"
+        >
+          <svg
+            class="w-3 md:w-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M15 19l-7-7 7-7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+        </div>
+         
+        <div
+          class="pr-2 md:pr-3 text-xs md:text-sm text-blueGray-600"
+        >
+          
+          Page 
+          <span
+            class="font-bold"
+          >
+            1
+          </span>
+           
+          <span
+            class="font-bold hidden md:inline"
+          >
+             of 1
+          </span>
+        </div>
+         
+        <div
+          class="pr-2 md:pr-3 cursor-not-allowed pointer-events-none text-blueGray-400"
+        >
+          <svg
+            class="w-3 md:w-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M9 5l7 7-7 7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+        </div>
+         
+        <div
+          class="cursor-not-allowed pointer-events-none text-blueGray-400"
+        >
+          <svg
+            class="w-3 md:w-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 5l7 7-7 7M5 5l7 7-7 7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="px-8 md:px-16 lg:px-56 md:-mt-32 relative"
+  >
+    <!---->
+     
+    <div
+      class="absolute top-0 left-0 right-0 bottom-0"
+    >
+      <div
+        class="flex justify-center items-start pt-32 md:pt-56"
+      >
+        <svg
+          class="w-16 animate-spin-slow text-primary"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
