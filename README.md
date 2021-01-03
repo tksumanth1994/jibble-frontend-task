@@ -19,12 +19,12 @@ User flows:
  - User can favorite their movies and see them in a separate list.
  - User can open the IMDB page of any movie.
 
-To setup repo
+Setup repo:
 ```
 npm install
 ```
 
-To run unit tests
+Run unit tests:
 ```
 npm run test:unit
 ```
